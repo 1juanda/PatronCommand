@@ -10,7 +10,7 @@ public class Apagar implements Command{
 		// TODO Auto-generated method stub
 		servidor.prender();
 		servidor.conectar();
+		servidor.ComprobarConexion();
 		servidor.apagar();
 	}
-
 }

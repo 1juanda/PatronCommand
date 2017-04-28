@@ -10,6 +10,7 @@ public class Prender implements Command {
 		// TODO Auto-generated method stub
 		servidor.prender();
 		servidor.conectar();
+		servidor.ComprobarConexion();
 		servidor.apagar();
 	}
 	

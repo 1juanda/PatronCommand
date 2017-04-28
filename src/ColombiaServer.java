@@ -19,5 +19,10 @@ public class ColombiaServer implements IServer{
 		System.out.println("Apagando el servidor de Colombia");
 		
 	}
-
+	@Override
+	public void ComprobarConexion() {
+		// TODO Auto-generated method stub
+		System.out.println("Comprobar Conexion el servidor de Colombia");
+		
+	}
 }
