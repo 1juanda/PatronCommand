@@ -20,15 +20,4 @@ public class EspañaServer implements IServer{
 		System.out.println("Conectando al servidor de España");		
 	}
 
-	@Override
-	public void verificarConexion() {
-		// TODO Auto-generated method stub
-		System.out.println("Verificando conexion al servidor de España");
-	}
-
-	@Override
-	public void cerrarConexion() {
-		// TODO Auto-generated method stub
-		System.out.println("Cerrando conexion del servidor de España");
-	}
 }
